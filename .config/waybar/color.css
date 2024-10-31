@@ -1,0 +1,167 @@
+* {
+    color: #a0f9ff;
+}
+
+window#waybar {
+    background-color: rgba(16, 18, 20, 0.3);
+    border-radius: 12px;
+}
+
+tooltip {
+    background-color: rgba(44, 79, 99, 0.2);
+}
+
+#starter,
+#wallpaper,
+#backlight,
+#pulseaudio,
+#mpris,
+#workspaces,
+#privacy,
+#custom-trayicon,
+#tray,
+#network,
+#memory,
+#cpu,
+#clock,
+#centerdock,
+#custom-taskbaricon {
+    background-color: rgba(38, 71, 102, 0.5);
+}
+
+#custom-shutdown,
+#custom-reboot,
+#custom-sleep,
+#custom-wallpaper1,
+#custom-wallpaper2,
+#custom-wallpaper3 {
+    background-color: rgba(59, 121, 142, 0.5);
+
+}
+
+#custom-wallpapericon {
+    background-color: transparent;
+}
+
+#workspaces button {
+    color: transparent;
+    background-color: #90eeff
+}
+
+#workspaces button.active:hover {
+    background-color: #a1ff6b;
+}
+
+#workspaces button.empty {
+    background-color: #485a58;
+}
+
+#workspaces button.active {
+    background-color: #90eeff;
+}
+
+#workspaces button.urgent {
+    background-color: #da9191;
+}
+
+#workspaces button:hover {
+    background: #50fff6;
+}
+
+#custom-taskbaricon {
+    background-color: #fbff00;
+}
+
+#custom-taskbaricon:hover {
+    background-color: #00d9ff;
+}
+
+#taskbar {
+    background-color: #000000;
+}
+
+#taskbar label {
+    color: #c4e2fd;
+}
+
+#taskbar button.active label {
+    color: #92ff9b;
+}
+
+#taskbar button:hover label {
+    color: #00e1ff;
+}
+
+#privacy-item image {
+    color: transparent;
+}
+
+#privacy-item.audio-out {
+    background-color: #00ff26;
+}
+
+#privacy-item.audio-in {
+    background-color: #f9ff50;
+}
+
+#privacy-item.screenshot {
+    background-color: #ffb3b3;
+}
+
+#traygroup {
+    background-color: transparent;
+}
+
+#window:hover,
+#custom-wallpapericon:hover,
+#custom-wallpaper1:hover,
+#custom-wallpaper2:hover,
+#custom-wallpaper3:hover,
+#backlight:hover,
+#pulseaudio:hover,
+#mpris:hover,
+#custom-trayicon:hover,
+#network:hover,
+#memory:hover,
+#cpu:hover,
+#clock:hover {
+    background: #74ff3c;
+    color: #00242e;
+}
+
+#window:hover label {
+    color: #00242e;
+}
+
+#custom-shutdown:hover {
+    background-color: rgba(255, 64, 64, 0.4);
+    color: #430000;
+}
+
+#custom-reboot:hover {
+    background-color: rgba(47, 255, 0, 0.4);
+    color: #004306;
+}
+
+#custom-sleep:hover {
+    background-color: rgba(0, 213, 255, 0.4);
+    color: #001d43;
+}
+
+#tray menu {
+    background-color: rgba(50, 65, 85, 0.7);
+}
+
+#tray menuitem {
+    background-color: transparent;
+}
+
+#tray menuitem:hover {
+    background-color: rgba(118, 212, 255, 0.6);
+}
+
+#tray label,
+#tray image,
+#tray radio {
+    color: #c4e2fd;
+}

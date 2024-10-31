@@ -1,0 +1,260 @@
+* {
+    font-family: "SpaceMono Nerd Font", "FZCuYuan-M03";
+    font-weight: 900;
+    font-size: 14px;
+    text-shadow: none;
+    padding: 0px;
+    transition: all 0.6s cubic-bezier(0.5, -0.5, 0.5, 1.5);
+    transition-duration: 300ms;
+}
+
+@import url("color.css");
+
+tooltip {
+    border: none;
+    border-radius: 8px;
+}
+
+#starter {
+    margin: 0px;
+    border-radius: 12px;
+    padding: 0px;
+}
+
+#window {
+    margin: 0px;
+    padding: 0px 14px;
+    border-radius: 14px;
+}
+
+#custom-shutdown,
+#custom-reboot,
+#custom-sleep {
+    margin: 3px 3px 3px 2px;
+    padding: 0px 15px;
+    font-size: 11px;
+    border-radius: 16px;
+}
+
+#custom-shutdown {
+    margin-left: 6px;
+}
+
+#wallpaper {
+    margin: 0px 0px 0px 15px;
+    border-radius: 12px 0px 0px 12px;
+    padding: 0px;
+}
+
+#custom-wallpapericon {
+    padding: 0px 15px 0px 15px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+#custom-wallpaper1,
+#custom-wallpaper2,
+#custom-wallpaper3 {
+    margin: 3px 0px 3px 5px;
+    padding: 0px 15px;
+    font-size: 11px;
+    border-radius: 16px;
+}
+
+#custom-wallpaper3 {
+    margin-right: 15px;
+}
+
+#backlight {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+#pulseaudio {
+    margin: 0px 15px 0px 0px;
+    padding: 0px 15px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+#mpris {
+    margin: 0px 15px 0px 0px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 12px;
+}
+
+#workspaces {
+    margin: 0px 0px;
+    padding: 0px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+#workspaces label {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+    border: none;
+}
+
+#workspaces button {
+    min-width: 0px;
+    min-height: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    border: none;
+    margin: 7px 3px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: none;
+}
+
+#workspaces button.active:hover {
+    padding: 5px 13px;
+}
+
+#workspaces button.active {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+#workspaces button:hover {
+    border: none;
+}
+
+#workspaces button:first-child {
+    margin-left: 8px;
+}
+
+#workspaces button:last-child {
+    margin-right: 8px;
+}
+
+#centerdock {
+    border-radius: 0px 12px 12px 0px;
+    padding: 0px;
+}
+
+#custom-taskbaricon {
+    font-size: 0px;
+    margin: 7px 8px 7px 0px;
+    padding: 5px 13px;
+    border-radius: 5px;
+}
+
+#taskbar {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 12px;
+}
+
+#taskbar button {
+    box-shadow: none;
+    background: none;
+    border: none;
+    padding: 5px;
+    min-width: 0px;
+    min-height: 0px;
+    margin: -10px 0px;
+}
+
+#taskbar button:first-child {
+    margin-left: 10px;
+}
+
+#taskbar button:last-child {
+    margin-right: 10px;
+}
+
+#taskbar label {
+    font-size: 20px;
+    font-family: "MesloLGSDZ Nerd Font Mono";
+    transition-duration: 300ms;
+}
+
+#privacy {
+    padding: 7px 8px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 12px;
+}
+
+#privacy-item image {
+    padding: 0px;
+    margin: 0px;
+}
+
+#privacy-item {
+    margin: 0px 0px;
+    padding: 0px 4px;
+    border-radius: 5px;
+}
+
+#privacy.horizontal revealer:only-child>#privacy-item {
+    padding: 0px 12px;
+}
+
+#traygroup {
+    margin: 0px 15px 0px 15px;
+}
+
+#custom-trayicon {
+    margin: 0px;
+    padding: 0px 15px;
+    border-radius: 12px;
+}
+
+#tray {
+    margin: 0px 0px 0px 15px;
+    border-radius: 12px;
+    padding: 0px 15px;
+}
+
+#network {
+    margin: 0px;
+    border-radius: 12px 0px 0px 12px;
+    padding: 0px 10px 0px 15px;
+}
+
+#memory {
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+#cpu {
+    margin: 0px 15px 0px 0px;
+    padding: 0px 15px 0px 10px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+#clock {
+    margin: 0px;
+    padding: 0px 15px;
+    border-radius: 12px;
+}
+
+#tray window {
+    background-color: transparent;
+    box-shadow: none;
+    text-shadow: none;
+    border-radius: 10px;
+}
+
+#tray decoration {
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#tray menu {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#tray menuitem {
+    padding: 3px 10px;
+    border-radius: 0px;
+    transition: all;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+}
+
+#tray radio {
+    border-width: 2px;
+}
