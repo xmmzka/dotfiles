@@ -13,6 +13,7 @@
 tooltip {
     border: none;
     border-radius: 8px;
+    box-shadow: none;
 }
 
 #starter {
